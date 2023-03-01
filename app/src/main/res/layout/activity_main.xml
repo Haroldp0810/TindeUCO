@@ -12,22 +12,67 @@
         android:layout_width="301dp"
         android:layout_height="50dp"
         android:layout_marginBottom="99dp"
-        android:fontFamily="@font/asap_font"
-        android:text="¡Registrate!"
+        android:fontFamily="@font/"
+        android:text="@string/registrate"
         android:textAllCaps="false"
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        android:text="¿Ya tienes una cuenta?"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="659dp" />
+        android:text="@string/ya_tienes_una_cuenta_inicia_sesion"
+        android:textColor="@color/white"
+        android:fontFamily="@font/asap_font"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="685dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="269dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/aleo_regular"
+        android:text=" Encuentra con quien divertirte"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="189dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/aleo_regular"
+        android:text=" Creamos conexiones que nos llevan a disfrutar los momentos y la vida.
+!Únete a esta comunidad, disfruta con nosotros!"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
