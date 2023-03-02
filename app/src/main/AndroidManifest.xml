@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Pruebas"
         tools:targetApi="31">
         <activity
+            android:name=".reciclerView_perfiles"
+            android:exported="false" />
+        <activity
             android:name=".InicioSesion"
             android:exported="true" />
         <activity
