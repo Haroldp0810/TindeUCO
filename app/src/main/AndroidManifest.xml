@@ -12,11 +12,11 @@
         android:theme="@style/Theme.Pruebas"
         tools:targetApi="31">
         <activity
-            android:name=".reciclerView_perfiles"
+            android:name=".RegistroPag2"
             android:exported="false" />
         <activity
-            android:name=".InicioSesion"
-            android:exported="true" />
+            android:name=".Activity_Registro"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
