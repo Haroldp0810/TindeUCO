@@ -10,4 +10,20 @@
     <string name="encuentra_con_quien_divertirte">Encuentra con quien divertirte</string>
     <string name="ya_tienes_una_cuenta_inicia_sesion">¿Ya tienes una cuenta? Inicia Sesion</string>
     <string name="registrate">¡Registrate!</string>
+    <string name="textoinicial"> Creamos conexiones que nos llevan a disfrutar los momentos y la vida.
+!Únete a esta comunidad, disfruta con nosotros</string>
+
+
+    <!--REGISTRO PAG 2-->
+    <string name="misDatostxt">Mis datos personales</string>
+    <string name="uidDato">UID</string>
+    <string name="nombresDato">NOMBRES</string>
+    <string name="correoDato">APELLIDO</string>
+    <string name="passwordDato">PASSWORD</string>
+    <string name="edadDato">EDAD</string>
+    <string name="direccionDato">DIRECCION</string>
+    <string name="telefonoDato">TELEFONO</string>
+    <string name="actualizarDatos">ACTUALIZAR DATOS</string>
+    <string name="actualizarPassword">ACTUALIZAR PASSWORD</string>
+
 </resources>
